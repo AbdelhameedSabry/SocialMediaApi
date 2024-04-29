@@ -31,7 +31,7 @@ const config = {
     database: process.env.DB_DATABASE,
     host: process.env.DB_HOST,
     db_port: process.env.DB_PORT || 3306,
-    dialect: process.env.DIALECT,
+    dialect: process.env.DIALECT || "mysql",
     port_no: process.env.PORT || 8080,
     jwt_secret_key: process.env.JWT_SECRET_KEY,
     jwt_expiration_time: process.env.JWT_EXPIRATION_TIME,
